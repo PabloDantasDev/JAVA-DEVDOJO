@@ -21,9 +21,7 @@ class LaçoRepetiçãoDe0AtéValorDigitado {
 			
 				i = i + 1;
 		}
-		
-			
-				
+						
 			}
 }
 
