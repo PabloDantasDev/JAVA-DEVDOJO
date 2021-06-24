@@ -5,33 +5,29 @@ class ExercicioLogin {
 		
 		Scanner ler = new Scanner (System.in);
 		
-		String login ="Pablo";
-		String senha ="1996";
+			String login ="Pablo";
+			String senha ="1996";
+			boolean tela =true;
 		
-		
-		while(login.equals("Pablo")&&senha.equals("1996")) {
+			while(tela) {
 			
 			System.out.println("Qual Seu Login?");
-			login =ler.next();
+			 login =ler.next();
 			System.out.println("Qual A Senha?");
-			senha = ler.next();
+			 senha = ler.next();
 			
 			if(login.equals("Pablo") && senha.equals("1996")) {
 				System.out.println("Acesso Concedido");
-				break;
-				
-			}else {
-				System.out.println("invalido");
+				tela=false;
+					break;
 				
 			}
+				System.out.println("invalido");
+				
+		}
+			System.out.println("FIM DO PROGRAMA");
+		}
 			
-		}
-
-
-
-		}
-	
-		
 	}
 
 	
