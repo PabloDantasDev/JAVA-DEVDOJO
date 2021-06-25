@@ -21,11 +21,7 @@ public class MediaValores {
 		System.out.println("Digite o terceiro Valor");
 		valor3 = ler.nextInt();
 		System.out.println("Digite o Primeiro Valor:");
-		valor4 = ler.nextInt();
-		System.out.println("Digite o Segundo Valor");
-		valor5 = ler.nextInt();
-		System.out.println("Digite o terceiro Valor");
-		valor6 = ler.nextInt();
+	
 		
 		System.out.println((valor1-valor2-valor3)/3 + " É a 1ª media dos valores ");
 		
