@@ -17,27 +17,5 @@ class ReajusteSalarial {
 		System.out.println(salario+salarioMaiorque4500);
 		}else {
 			System.out.println(salario+salarioMenorque4500);
-		
-		}
-		
-		}
-		
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	}}
+		}}}
+
